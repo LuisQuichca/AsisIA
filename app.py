@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 
-
 ## Database
 import datetime
 import pytz
