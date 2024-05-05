@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
-import numpy as np
-import torch
+
 
 ## Database
 import datetime
