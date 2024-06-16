@@ -18,8 +18,8 @@ os.environ["OPENAI_API_KEY"] = api_key.OPENAI_API_KEY
 
 # 3. Crear el LLM
 from langchain.chat_models import ChatOpenAI
-llm = ChatOpenAI(temperature=0,model_name='gpt-4')
-#gpt-3.5-turbo
+llm = ChatOpenAI(temperature=0,model_name='gpt-3.5-turbo')
+#gpt-3.5-turbo  gpt-4
 
 # 4. Crear la cadena
 #from langchain import SQLDatabaseChain
